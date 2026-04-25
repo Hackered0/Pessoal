@@ -1,0 +1,412 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Barlow', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url(images/hero_sombrio.png);
+  min-height: 100vh; 
+}
+
+
+/* CONTAINER */
+.container {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  color: #fdfdfc;
+  justify-content: center;
+}
+
+/* HEADER */
+.header {
+  border-bottom: 2px solid #ffffff;
+  background: black;
+  opacity: 70%;
+}
+
+.header .container {
+  align-items: center;
+  justify-content: space-between;
+  height: 90px; /* MAIOR */
+}
+
+.header h1 {
+  margin: 10px;
+  font-size: 28px; /* MAIOR */
+}
+
+.header a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px; /* MAIOR */
+}
+
+.header a:hover {
+  color: #ff0000;
+  text-decoration: underline;
+}
+
+.agora {
+  font-weight: 800;
+}
+
+.navbar {
+  width: auto;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.titulo {
+  color: #ffffff;
+  font-weight: 500;
+}
+
+/*Primeira parte */
+.principal {
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/hero_sombrio.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+.conteudo {
+    position: relative;
+    text-align: center;
+    color: #F5F5F5;
+}
+
+.conteudo h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 64px;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.conteudo p {
+    font-size: 18px;
+    color: #BFBFBF;
+    margin-bottom: 40px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.botao {
+    display: inline-block;
+    padding: 12px 30px;
+    border: 1px solid #F5F5F5;
+    color: #F5F5F5;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.botao:hover {
+    background-color: #F5F5F5;
+    color: #0D0D0D;
+}
+
+/*Fotopoesia*/
+.secao {
+    background-color: #0D0D0D;
+    padding: 80px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.titulo_secao {
+    margin-bottom: 50px;
+    padding-top: 20px;
+    border-top: 1px solid #333333;
+}
+
+.titulo_secao span {
+    font-size: 12px;
+    color: #8C8C8C;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.cards {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.card {
+    flex: 1;
+    background-color: transparent;
+}
+
+.card img {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.card h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.card .autor {
+    font-size: 14px;
+    color: #8C8C8C;
+    margin-bottom: 15px;
+    font-style: italic;
+}
+
+.card .descricao {
+    font-size: 14px;
+    color: #BFBFBF;
+    margin-bottom: 20px;
+}
+
+.card .rodape {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    color: #8C8C8C;
+    padding: 15px;
+    border: 1px solid #333333;
+}
+
+/*Poesia principal*/
+.fotopoesia {
+    background-color: #0D0D0D;
+    padding: 80px 0;
+}
+
+.fotopoesia .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.box {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    border: 1px solid #333333;
+    padding: 60px;
+}
+
+.box .texto {
+    flex: 1;
+}
+
+.box .texto h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.box .texto .autor {
+    font-style: italic;
+    color: #8C8C8C;
+    margin-bottom: 30px;
+}
+
+.box .texto p {
+    color: #BFBFBF;
+    white-space: pre-line;
+    margin-bottom: 40px;
+}
+
+.box .imagem {
+    flex: 1;
+    height: 400px;
+}
+
+.box .imagem img {
+    width: 100%;
+    height: 100%;
+}
+
+/*Chamar novos autores*/
+.chamada {
+    background-color: #0D0D0D;
+    padding: 80px 0;
+    border: 1px solid #333333;
+}
+
+.chamada .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.chamada_grid {
+    display: flex;
+    gap: 60px;
+    justify-content: space-between;
+}
+
+.chamada_principal {
+    flex: 1.5;
+}
+
+.chamada_principal h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.chamada_principal p {
+    color: #BFBFBF;
+}
+
+.chamada_item {
+    flex: 1;
+}
+
+.chamada_item h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.chamada_item p {
+    font-size: 14px;
+    color: #8C8C8C;
+    margin-bottom: 20px;
+}
+
+.chamada_item a {
+    color: #F5F5F5;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/*Poesias recentes */
+
+.recentes {
+    background-color: #0D0D0D;
+    padding: 60px 0;
+    border: 1px solid #333333;
+}
+
+.recentes .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.recentes_grid {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.item_recente {
+    flex: 1;
+    display: flex;
+    gap: 15px;
+}
+
+.item_recente .thumb {
+    width: 60px;
+    height: 80px;
+    background-color: #1A1A1A;
+}
+
+.item_recente .info h4 {
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+
+.item_recente .info p {
+    font-size: 12px;
+    color: #8C8C8C;
+}
+
+/* FOOTER */
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #1f2020;
+  padding: 40px 2%; 
+  color: #fff;
+  font-size: 16px; 
+}
+
+.footer .container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 100%;
+  gap: 40px;
+}
+
+.navega a   {
+  text-decoration: none;
+  color: #ffffff;
+}
+.descubra a{
+  text-decoration: none;
+  color: #ffffff;
+}
+.novidades a{
+  text-decoration: none;
+  color: #ffffff;
+}
+.navega a:hover  {
+  color: #e91818;
+  text-decoration: underline;
+}
+.descubra a:hover { 
+  color: #e91818;
+  text-decoration: underline;
+}
+
+.botao_notificacoes {
+  width: 130px;
+  height: 35px;
+  background-color: #000000;
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.botao_notificacoes:hover {
+  background-color: #ff0000;
+}
+
+/* LINHA FINAL */
+.linhaBaixo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 15px;
+  border-top: 1px solid #333;
+  font-size: 14px;
+  color: #666;
+}
+
+.linhaBaixo span {
+  margin-left: 70%;
+}
+
